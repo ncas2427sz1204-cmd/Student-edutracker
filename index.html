@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Activity Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1>EduTrack</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Dashboard</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <header class="welcome-section">
+            <h2>Welcome back, Student!</h2>
+            <p>Keep track of your daily learning milestones.</p>
+        </header>
+
+        <section class="summary-card">
+            <h3>Progress Summary</h3>
+            <p id="progress-text">0 out of 0 activities completed</p>
+            <div class="progress-bar-bg">
+                <div id="progress-fill" class="progress-fill"></div>
+            </div>
+        </section>
+
+        <section class="activity-list" id="activity-list">
+            </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
